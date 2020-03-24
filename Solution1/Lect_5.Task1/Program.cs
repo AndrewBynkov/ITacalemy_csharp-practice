@@ -20,9 +20,9 @@ namespace Lect_5.Task1
             {
                for (int i = 0; i<array2.Length; i++)
                 {
-                    array2[0] = 1;
-                    array2[2] = "Andrew";
+                    array2[0] = 1; 
                 }
+                array2[2] = array2[2] + " guys!";
 
                 Console.WriteLine();
                 Console.WriteLine(string.Join("\n", array2));
